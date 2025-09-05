@@ -27,14 +27,15 @@ The EDA process followed several key steps:
 ### 1. Data Loading and Inspection
 The dataset was loaded into a Pandas DataFrame. Initial checks confirmed the data types and the absence of missing values.
 
-
-# Checking for missing values
+Checking for missing values
 df.isnull().sum()
+
 2. Summary Statistics
 Descriptive statistics were generated for both numerical and categorical columns to get a high-level overview of the data.
 
-# Generate summary statistics for all columns
+Generate summary statistics for all columns
 df.describe(include='all')
+
 3. Distribution of Delays
 Histograms were plotted to visualize the distribution of departure (DepDelay) and arrival (ArrDelay) times. This helped in understanding the frequency and spread of delays.
 
@@ -53,6 +54,7 @@ plt.figure(figsize=(8,6))
 sns.heatmap(df.select_dtypes(include=['number']).corr(), annot=True, cmap='coolwarm')
 plt.title('Correlation Between Numeric Variables')
 plt.show()
+
 Caption: Heatmap showing a strong positive correlation between DepDelay and ArrDelay, as well as Distance and AirTime.
 
 💡 Key Insights
