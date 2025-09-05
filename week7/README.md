@@ -29,7 +29,6 @@ The repository for this week contains the following key files:
 * `train_model.py`: A script to load the Iris dataset, train a classification model, and save the trained model to `model.pkl`.
 * `model.pkl`: The serialized, pre-trained machine learning model.
 * `app.py`: The main Streamlit application script. It loads `model.pkl`, creates the UI, and handles user input to make predictions.
-* `requirements.txt` (not provided, but recommended): A file that would list the necessary libraries (`streamlit`, `scikit-learn`, `pandas`) for easy setup.
 
 ### Workflow:
 1.  The `train_model.py` script is run once to generate the `model.pkl` file.
