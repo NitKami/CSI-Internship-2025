@@ -1,10 +1,11 @@
-# CSI Internship Journey (2025)
+# Celebal Summer Internship (2025)
 
-Welcome to the official repository for my work during the 8-week internship program with the Computer Society of India (CSI) in 2025. This repository is a complete collection of all the weekly assignments, projects, and skills I developed throughout the program.
+Welcome to the official repository for my work during the 8-week summer internship program at **Celebal Technologies**. This repository is a complete collection of all the weekly assignments, projects, and skills I developed throughout the program, referred to internally as the Celebal Summer Internship (CSI).
 
 ##  Internship Overview
 
 This intensive internship provided a structured, hands-on journey through the fundamentals of Python programming, data analysis, machine learning, and model deployment. Each week introduced a new concept, building upon the last, culminating in a final project that integrated these skills to solve a real-world problem.
+
 
 ---
 
