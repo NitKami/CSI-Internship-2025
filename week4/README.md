@@ -30,23 +30,23 @@ The dataset was loaded into a Pandas DataFrame. Initial checks confirmed the dat
 Checking for missing values
 df.isnull().sum()
 
-# 2. Summary Statistics
+### 2. Summary Statistics
 Descriptive statistics were generated for both numerical and categorical columns to get a high-level overview of the data.
 
 Generate summary statistics for all columns
 df.describe(include='all')
 
-# 3. Distribution of Delays
+### 3. Distribution of Delays
 Histograms were plotted to visualize the distribution of departure (DepDelay) and arrival (ArrDelay) times. This helped in understanding the frequency and spread of delays.
 
 Caption: Distribution of Departure Delays, showing a right skew.
 
-# 4. Outlier Analysis by Airline
+### 4. Outlier Analysis by Airline
 Box plots were used to compare the delay performance across different airlines and to visually detect outliers in departure and arrival delays.
 
 Caption: Box plot showing the variance in departure delays among different airlines.
 
-# 5. Correlation Analysis
+### 5. Correlation Analysis
 A correlation heatmap was generated to quantify the linear relationship between the numerical variables in the dataset. This is crucial for understanding which variables move together.
 
 Correlation Heatmap
@@ -57,7 +57,7 @@ plt.show()
 
 Caption: Heatmap showing a strong positive correlation between DepDelay and ArrDelay, as well as Distance and AirTime.
 
-# 💡 Key Insights
+### 💡 Key Insights
 From this analysis, several key insights were derived:
 
 Strong Correlation: There is a very strong positive correlation between DepDelay and ArrDelay, which is expected. Distance and AirTime are also highly correlated.
